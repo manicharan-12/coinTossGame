@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  width: 40%;
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  color: #a35200;
+  font-weight: bolder;
+}
+
+.heading-2 {
+  color: #334155;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  color: #e2a139;
+  background-color: #f9d423;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 12px;
+}
+
+.align-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
